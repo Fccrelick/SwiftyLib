@@ -20,4 +20,8 @@ public final class SwiftyLib {
         return a - b
     }
     
+    public init() {
+        
+    }
+    
 }
