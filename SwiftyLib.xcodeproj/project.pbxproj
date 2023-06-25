@@ -20,6 +20,7 @@
 		5EAA03C72A474BEE00894FEC /* SwiftyLibExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA03C62A474BEE00894FEC /* SwiftyLibExamplesTests.swift */; };
 		5EAA03D12A474BEE00894FEC /* SwiftyLibExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA03D02A474BEE00894FEC /* SwiftyLibExamplesUITests.swift */; };
 		5EAA03D32A474BEE00894FEC /* SwiftyLibExamplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA03D22A474BEE00894FEC /* SwiftyLibExamplesUITestsLaunchTests.swift */; };
+		5EAA03DE2A48C7D100894FEC /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA03DD2A48C7D100894FEC /* SwiftyLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		5EAA03CC2A474BEE00894FEC /* SwiftyLibExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLibExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAA03D02A474BEE00894FEC /* SwiftyLibExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibExamplesUITests.swift; sourceTree = "<group>"; };
 		5EAA03D22A474BEE00894FEC /* SwiftyLibExamplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibExamplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EAA03DD2A48C7D100894FEC /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				5EAA03922A474AA100894FEC /* SwiftyLib.h */,
 				5EAA03932A474AA100894FEC /* SwiftyLib.docc */,
+				5EAA03DD2A48C7D100894FEC /* SwiftyLib.swift */,
 			);
 			path = SwiftyLib;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EAA03942A474AA100894FEC /* SwiftyLib.docc in Sources */,
+				5EAA03DE2A48C7D100894FEC /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +641,7 @@
 		5EAA03A72A474AA100894FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U69FXD4776;
@@ -653,6 +658,7 @@
 		5EAA03A82A474AA100894FEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U69FXD4776;
